@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <title> BTS FAN REGISTRATION </title>
+</head>
+<style>
+body{
+   background-image: url('https://wallpaperaccess.com/full/8344.jpg');
+  background-size: cover;
+background-repeat: no-repeat;
+}
+form {
+font-size: 30px;
+color: #fff
+}
+input{
+ color:#000;
+ 
+}
+select{
+ color: #000;
+}
+}
+
+</style>
+ <body>
+ 
+<h1  style="background-color:powderblue;"> BTS FAN REGISTRATION </h1>
+ <form action="connect.php" method="POST">
+ Name :<input type="text" name="name" value="" required> <br><br> 
+BTS Fan Name :<input type="text" name="fanname" value="" > <br><br>
+Password :<input type="password" name="password" value="" required> <br><br> 
+Email :<input type="email" name="email" value="" required> <br><br> 
+Phonenumber:<input type="number" name="number" value="" required> <br><br> 
+ FAN BOY/GIRL?:<select name=gender value="" required> <br><br>
+   <option value="m">Male</option>
+   <option value="f">Female</option>
+   <option value="o">Other</option>
+ </select><br><br>
+  BTS fan contintent<select name=country value="" required> <br><br>
+   <option value="1">Asia</option>
+   <option value="1">Afrcia</option>
+   <option value="1">Australia</option>
+   <option value="2">Antarctica</option>
+   <option value="3">Europe</option>
+   <option value="2">North America</option>
+   <option value="3">south America</option></select><br><br>
+<input type="submit" value="Submit">
+</body>
+</html>

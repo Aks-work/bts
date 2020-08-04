@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+
+
+
+}
+h1 {
+	color: #DA70D6;
+	background-color: #000;
+	text-align: center;
+	padding: 20px;
+}
+.mode{
+	background-color: #FFCCFF;
+	margin: 0 0 0 430px;
+	background-image: url(../cover.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 500PX;
+	color: #000;
+	font-size: 25px;
+
+
+
+}

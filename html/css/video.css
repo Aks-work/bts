@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.submit{
+	background-color: #DA70D6;
+	color: #000;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.vid{
+	background-color: #DA70D6;
+
+}
+.submit .btn{
+	color: #000;
+	background-color: #8B008B;
+	border-radius:3px;
+	padding: 16px 36px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	margin-right: 40px;
+	line-height: 26px;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 15px;
+	transition: 0.6s ease;
+}
+.submit .btn:hover{
+	background-color: #8A2BE2;
+}
